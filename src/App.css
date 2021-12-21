@@ -1,0 +1,110 @@
+.App {
+  text-align: center;
+  background-color: #ECF0F9;
+  height: 100vh;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+.layer {
+  background-color: rgba(12, 12, 11, 0.7);
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+.image { 
+  /* border: 2px solid red; */
+  position: relative; 
+  width: 100%; /* for IE 6 */
+  height: 250px;
+  max-height: 250px;
+  border-radius: 15px;
+  overflow: hidden;
+  /* border: 1px solid black; */
+}
+.carouselData{
+  position: absolute; 
+  top: 50px; 
+  left: 0px; 
+  width: 100%; 
+  
+}
+.carouselData p{
+color: #ECF0F9; 
+/* float: left; */
+}
+.carouselData h2 { 
+  /* position: absolute; 
+  top: 50px; 
+  left: 0px; 
+  width: 100%;  */
+  /* float: left; */
+}
+h2 span { 
+  color: white; 
+  font: bold 24px/45px Helvetica, Sans-Serif; 
+  letter-spacing: -1px;  
+
+  /* padding: 10px;  */
+}
+
+h2 span.spacer {
+  padding:0 5px;
+}
+
+.gamecard{
+  /* border: 2px solid red; */
+  border-radius: 15px;
+  overflow: hidden;
+}
+.List{
+  margin-top: -5%;
+  height: 250px;
+  overflow: hidden;
+  overflow: scroll;
+
+}
+.cardList{
+  /* background-color: wheat; */
+  padding: 6px;
+}
+.button{
+  border-radius: 15px;
+  border:none;
+  height: 35px;
+  background: linear-gradient(#37C4FC,#B376FF);
+}
